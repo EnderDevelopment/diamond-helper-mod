@@ -1,0 +1,8 @@
+{
+    "block.diamondhelpermod.diamond_helper_block": "Diamond Helper Block",
+    "item.diamondhelpermod.diamond_helper_item": "Diamond Helper Item",
+    "gui.diamondhelpermod.menu_title": "Diamond Helper Menu",
+    "gui.diamondhelpermod.mine_stone": "Mine Stone",
+    "gui.diamondhelpermod.harvest_crops": "Harvest Crops",
+    "gui.diamondhelpermod.build_walls": "Build Walls"
+}

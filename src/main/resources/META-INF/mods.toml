@@ -1,0 +1,23 @@
+[[mods]]
+modId="diamondhelpermod"
+version="${file.jarVersion}"
+displayName="Diamond Helper Mod"
+credits="Diogo D. Ferreira"
+authors="Diogo D. Ferreira"
+description='''
+A mod that adds a diamond block that helps with mining, farming, and building.
+'''
+
+[[dependencies.diamondhelpermod]]
+modId="forge"
+mandatory=true
+versionRange="[43,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.diamondhelpermod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"

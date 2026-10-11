@@ -1,0 +1,34 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '5.1.+'
+}
+
+group 'com.diogodferreira14'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'forge'
+        url = 'https://files.minecraftforge.net/maven'
+    }
+}
+
+ext.ext {
+    minecraftVersion = '1.20.1'
+    forgeVersion = '43.1.0'
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${ext.minecraftVersion}-${ext.forgeVersion}"
+    minecraft "net.minecraft:client:${ext.minecraftVersion}"
+    minecraft "net.minecraft:server:${ext.minecraftVersion}"
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "mcversion", ext.minecraftVersion
+}
+
+jar {
+    archiveFileName = "DiamondHelperMod-${version}.jar"
+}
